@@ -2,10 +2,11 @@
 
 def display_board
   cells = "   |   |   "
-  divider = 
+  divider = "-----------"
   
-  strings = [
-    "   ",
-    "   |   |   "
-  ]
+  strings = [cells, divider, cells, divider, cells]
+  
+  strings.each do |s|
+    puts s
+  end
 end
